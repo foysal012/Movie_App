@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:movie_app/bottom%20nav%20bar/bottom_navigation_bar_page_screen.dart';
+import 'package:movie_app/screen/search_page_screen.dart';
 import 'package:movie_app/screen/spalash%20screen/spalash_screen.dart';
 
 void main() {
@@ -26,8 +27,9 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      //home: SpalashScreen(),
-      home: BottomNavigationBarPageScreen(),
+      home: SpalashScreen(),
+      //home: SearchPageScreen(),
+      //home: BottomNavigationBarPageScreen(),
     );
   }
 }
